@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $light-brow;
+    background-image: radial-gradient(circle, $light-brow, $brow);
+}
