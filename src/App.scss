@@ -3,6 +3,10 @@
 .App {
     width: 100vw;
     min-height: 100vh;
-    background-color: $light-brow;
-    background-image: radial-gradient(circle, $light-brow, $brow);
+    background-color: white;
+    background-image: radial-gradient(circle, white, $background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

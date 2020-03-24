@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.UserInfo {
+    background-color: white;
+    z-index: 2;
+    border-radius: 0 0 $border-radius $border-radius;
+    display: flex;
+    box-shadow: $box-shadow;
+
+    & > * {
+        margin: 1rem;
+    }
+}
